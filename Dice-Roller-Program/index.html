@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller Program</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="container">
+        <h1>🎲 Dice Roller</h1>
+        
+        <form id="diceForm" onsubmit="rollDice(); return false;">
+            <label for="noOfDice">No. of Dice:</label>
+            <input type="number" id="noOfDice" value="1" min="1">
+            <button type="submit">Roll Dice</button>
+            <button type="button" onclick="resetDice()">Reset</button>
+        </form>
+
+        <section id="results">
+            <h2>Results</h2>
+            <div id="diceResult">Click "Roll Dice" to start!</div>
+            <div id="diceImage"></div>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
