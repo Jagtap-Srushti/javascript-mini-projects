@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height:100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: "Orbitron",sans-serif;
+    color: #fff;
+    overflow: hidden;
+}
+
+#clock-container {
+    text-align: center;
+    padding: 30px 50px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(10px);
+    animation: fadeIn 1.2s ease-in-out;
+
+}
+
+#clock {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+#ampm{
+    font-size: 1.8rem;
+    margin: 10px;
+    color: white;
+}
+
+#time{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 12px;
+}
+
+#date{
+    margin-top: 15px;
+    font-size: 1.4rem;
+    color: #ccc;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+  #time { font-size: 3rem; }
+  #ampm { font-size: 1.2rem; }
+  #date { font-size: 1rem; }
+}
