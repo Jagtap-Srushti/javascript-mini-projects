@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #111;
+    overflow: hidden;
+}
+
+.trail{
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%,-50%);
+    opacity: 0.7;
+}
