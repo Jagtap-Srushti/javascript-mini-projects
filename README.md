@@ -62,4 +62,19 @@ git clone https://github.com/yourusername/javascript-mini-projects.git
 cd javascript-mini-projects
 cd Calculator
 open index.html
+---
+## Project Structure
+Explain the folder structure here...
+
+## Contributing
+Explain contribution process here...
+
+## License
+MIT License info...
+
+## Tips for Users
+Some useful tips...
+
+## Contact
+Your contact info...
 
