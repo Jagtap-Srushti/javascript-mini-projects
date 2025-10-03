@@ -59,3 +59,7 @@ Optional enhancements:
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/javascript-mini-projects.git
+cd javascript-mini-projects
+cd Calculator
+open index.html
+
