@@ -26,7 +26,7 @@ A collection of **fun, interactive, and portfolio-ready JavaScript mini projects
 
 | Project | Description & Features | Demo |
 |---------|----------------------|------|
-| **Calculator** | Fully functional calculator performing addition, subtraction, multiplication, and division. <br>**Features:** Clean UI, keyboard input, responsive design, real-time calculation updates. | ![Live Demo](https://yourusername.github.io/calculator) |
+| **Calculator** | Fully functional calculator performing addition, subtraction, multiplication, and division. <br>**Features:** Clean UI, keyboard input, responsive design, real-time calculation updates. | ![Live Demo](https://jagtap-srushti.github.io/javascript-mini-projects/calculator) |
 | **Catch Me If You Can** | Interactive game where the player clicks a moving target. <br>**Features:** Random target movement, score tracking, countdown timer, increasing difficulty. | ![Catch Me Demo](assets/gifs/catch-me-if-you-can.gif) [Live Demo](https://yourusername.github.io/catch-me-if-you-can) |
 | **Counter** | Simple counter application with increment, decrement, and reset. <br>**Features:** Modern UI, persistent state using LocalStorage, intuitive buttons. | ![Counter Demo](assets/gifs/counter.gif) [Live Demo](https://yourusername.github.io/counter) |
 | **Dice Roller Program** | Simulates rolling dice with random numbers. <br>**Features:** Single/multiple dice, animated dice display, instant results. | ![Dice Roller Demo](assets/gifs/dice-roller.gif) [Live Demo](https://yourusername.github.io/dice-roller) |
